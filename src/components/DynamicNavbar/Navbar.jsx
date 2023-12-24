@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import './Navbar.css'
-import search from '../images/search.jpg'
-import logo from '../images/logo.png'
-import select from "../images/selectedarrow.jpg"
-import unselect from "../images/nonselectedarrow.jpg"
+import search from '../../images/search.jpg'
+import logo from '../../images/logo.png'
+import select from "../../images/selectedarrow.jpg"
+import unselect from "../../images/nonselectedarrow.jpg"
 const Navbar = () => {
     const [menuItems, setMenuItems] = useState([
         'HOME',
